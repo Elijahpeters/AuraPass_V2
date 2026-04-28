@@ -22,7 +22,7 @@ The authentication engine employs **Cosine Similarity** to compare live embeddin
 
 $$\text{similarity} = \frac{A \cdot B}{\|A\| \|B\|}$$
 
-## 🚀 Key Features
+## Key Features
 - **Liveness Detection:** Essential for preventing "Presentation Attacks" (photos or video replays).
 - **Automated Seating:** Implementated via Constraint Satisfaction for randomized, conflict-free seat allocation.
 - **Power Isolation:** Logic-level protection using an SPDT Relay and 2N2222 Transistor to handle 12V actuation.
